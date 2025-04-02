@@ -1,7 +1,10 @@
 name: Super-Linter
 
 # trigger runs all jobs in workflow below 
-on: push
+on: 
+  push:
+    branches:
+    - main
 
 # The workflow
 jobs:
